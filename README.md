@@ -2,6 +2,19 @@
 
 This project is a sentiment-based product recommendation system that suggests top products to users based on their past reviews and sentiment analysis. It leverages machine learning models to analyze user sentiments and recommend products accordingly.
 
+## Table of Contents :
+* [Problem Statement](#problem-statement)
+* [Features](#features)
+* [Project Structure](#project-structure)
+* [Setup Instructions](#setup-instructions)
+* [Usage](#usage)
+* [Data](#data)
+* [Model Details](#model-details)
+* [Models](#models)
+* [Conclusions](#conclusions)
+* [License](#license)
+* [Author](#author)
+
 ## Features
 
 - Recommends top 5 products for a given user based on sentiment analysis.
@@ -111,3 +124,13 @@ Pre-trained models and vectorizers are stored in the `pickle_files/` directory:
 ## License
 
 This project is for educational purposes.
+
+## Conclusions
+
+ - After testing both User-User and Item-Item Collaborative Filtering methods, the User-User Collaborative Filtering emerged as the superior approach due to its lower Root Mean Squared Error (RMSE). This demonstrates that User-User filtering more effectively captures user preferences, resulting in better personalized recommendations.
+ - The system also integrates sentiment analysis to prioritize products with positive reviews, enhancing the relevance and quality of the recommendations. The complete recommendation system is deployed using a Flask app hosted on DigitalOcean, ensuring it is reliable and easily accessible.
+ - By focusing on User-User Collaborative Filtering, the model provides more accurate, sentiment-aware, and user-focused recommendations, making it the best fit for this use case.
+
+## Author
+
+* [Arnab Bera]( https://www.linkedin.com/in/arnabbera-tech/ )
