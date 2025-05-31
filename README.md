@@ -12,7 +12,6 @@ This project is a sentiment-based product recommendation system that suggests to
 * [Model Details](#model-details)
 * [Models](#models)
 * [Conclusions](#conclusions)
-* [License](#license)
 * [Author](#author)
 
 ## Features
@@ -120,10 +119,6 @@ Pre-trained models and vectorizers are stored in the `pickle_files/` directory:
 - `model.pkl`
 - `item_final_rating.pkl`
 - `user_final_rating.pkl`
-
-## License
-
-This project is for educational purposes.
 
 ## Conclusions
 
