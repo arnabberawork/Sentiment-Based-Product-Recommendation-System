@@ -62,6 +62,16 @@ python app.py
 Open a browser and navigate to `http://127.0.0.1:5000/` to view the app.
 
 ---
+
+## Usage
+
+- Enter a username (e.g., `walker557`, `kimmie`, `rebecca`) in the web interface and click "Get Recommendations" to view the top 5 recommended products.
+
+## Data
+
+- `data/sample30.csv`: Sample user reviews.
+- `data/Data+Attribute+Description.csv`: Description of dataset attributes.
+
 ---
 
 ## Model Details
@@ -85,15 +95,6 @@ Open a browser and navigate to `http://127.0.0.1:5000/` to view the app.
 The final recommendation engine merges sentiment filtering with collaborative filtering predictions. It ranks products by their predicted rating and sentiment polarity.
 
 ---
-
-## Usage
-
-- Enter a username (e.g., `walker557`, `kimmie`, `rebecca`) in the web interface and click "Get Recommendations" to view the top 5 recommended products.
-
-## Data
-
-- `data/sample30.csv`: Sample user reviews.
-- `data/Data+Attribute+Description.csv`: Description of dataset attributes.
 
 ## Models
 
